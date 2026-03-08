@@ -31,7 +31,7 @@ const HeroSection = () => {
           </h1>
 
           {/* Sub-headline */}
-          <p className="mb-10 max-w-3xl text-lg leading-relaxed text-primary-foreground/80 md:text-xl">
+          <p className="mb-10 max-w-3xl text-base leading-relaxed text-primary-foreground/80 md:text-xl">
             เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
             <br />
             คอร์สเวิร์กชอป 4 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10X
