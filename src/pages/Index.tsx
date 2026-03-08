@@ -7,6 +7,7 @@ import InstructorProfile from "@/components/landing/InstructorProfile";
 import EventGallery from "@/components/landing/EventGallery";
 import PricingSection from "@/components/landing/PricingSection";
 import FooterSection from "@/components/landing/FooterSection";
+import FAQSection from "@/components/landing/FAQSection";
 
 const Index = () => {
   return (
@@ -19,7 +20,8 @@ const Index = () => {
       <div id="instructor"><InstructorProfile /></div>
       <EventGallery />
       <div id="pricing"><PricingSection /></div>
-      <div id="faq"><FooterSection /></div>
+      <div id="faq"><FAQSection /></div>
+      <FooterSection />
     </div>
   );
 };
