@@ -16,8 +16,8 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <div id="benefits"><WhatYouLearn /></div>
-      <div id="outline"><CourseOutline /></div>
       <div id="target"><TargetAudience /></div>
+      <div id="outline"><CourseOutline /></div>
       <div id="instructor"><InstructorProfile /></div>
       <EventGallery />
       <div id="pricing"><PricingSection /></div>
