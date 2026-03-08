@@ -25,8 +25,10 @@ const HeroSection = () => {
 
           {/* Headline */}
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl">
-            ปลดล็อกการทำงานยุคใหม่ด้วย AI:{" "}
-            <span className="text-google-yellow">Gemini Deep Research</span> &{" "}
+            ปลดล็อกการทำงานยุคใหม่ด้วย AI:
+            <br />
+            <span className="text-google-yellow">Gemini Deep Research</span> &
+            <br />
             <span className="text-google-green">NotebookLM</span>
           </h1>
 
