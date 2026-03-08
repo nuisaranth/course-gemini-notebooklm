@@ -14,7 +14,7 @@ const InstructorProfile = () => {
         </span>
 
         <h2 className="mt-4 text-2xl font-extrabold text-foreground md:text-4xl">
-          เรียนรู้จากผู้ใช้งานจริง ไม่ใช่แค่ทฤษฎี
+          เรียนรู้จากผู้ใช้งานจริง <span className="bg-google-yellow/20 px-2 py-0.5 rounded text-google-yellow">ไม่ใช่แค่ทฤษฎี</span>
         </h2>
         <p className="mx-auto mt-3 max-w-2xl text-sm text-muted-foreground md:text-base">
           ประสบการณ์กว่า 20 ปีในวงการสื่อและเทคโนโลยี วิทยากรให้กับหน่วยงานภาครัฐและเอกชนชั้นนำ
