@@ -1,6 +1,5 @@
-import { ExternalLink } from "lucide-react";
+import { ExternalLink, Youtube, Cpu, BookOpenCheck } from "lucide-react";
 import instructorImg from "@/assets/instructor.png";
-
 const PROFILE_URL =
   "https://www.teamdigital.co/instructors/%E0%B8%AD-%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1-%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%93%E0%B9%8C/";
 
@@ -36,10 +35,18 @@ const InstructorProfile = () => {
           </h3>
           <p className="text-sm text-primary">(อ.ไตร)</p>
 
-          <p className="mx-auto mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-            ผู้ใช้งานจริงยุคแรกเริ่ม ที่ใช้ NotebookLM ทำงานและสร้างคอนเทนต์มาเกือบ 2 ปี
-            ผู้เชี่ยวชาญด้านการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงานและการเล่าเรื่อง
-          </p>
+          <div className="mx-auto mt-5 max-w-md space-y-3 text-left">
+            {[
+              { icon: Youtube, text: 'ยูทูบเบอร์ช่อง "ชีพธรรม คำวิเศษณ์" (ผู้ติดตามกว่า 230,000 คน)' },
+              { icon: Cpu, text: "ผู้เชี่ยวชาญด้านการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงานและการเล่าเรื่อง" },
+              { icon: BookOpenCheck, text: "ผู้ใช้งานจริงยุคแรกเริ่ม ที่ใช้ NotebookLM ทำงานและสร้างคอนเทนต์มาเกือบ 2 ปี" },
+            ].map((b, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <b.icon className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
+                <p className="text-sm leading-relaxed text-muted-foreground">{b.text}</p>
+              </div>
+            ))}
+          </div>
 
           <a
             href={PROFILE_URL}
