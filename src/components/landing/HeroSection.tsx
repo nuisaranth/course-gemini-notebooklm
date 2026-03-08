@@ -4,7 +4,7 @@ const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
   { icon: CalendarDays, label: "รุ่น 2", value: "15 มี.ค. 69", color: "text-google-blue" },
-  { icon: Clock, label: "เวลา", value: "13:00-17:00", color: "text-google-red" },
+  { icon: Clock, label: "เวลา", value: "13:00-17:30", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
   { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" },
 ];
