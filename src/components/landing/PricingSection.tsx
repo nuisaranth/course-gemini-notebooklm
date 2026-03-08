@@ -3,7 +3,7 @@ import { Check, Calendar, Clock, MapPin, Users } from "lucide-react";
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const included = [
-"อบรมสด 1 วันเต็ม (ไม่ใช่ออนไลน์)",
+"อบรมสด 4 ชั่วโมงเต็ม (ไม่ใช่ออนไลน์)",
 "กลุ่มเล็กไม่เกิน 10 ท่าน ดูแลทั่วถึง",
 "เอกสารประกอบการอบรม",
 "เครื่องดื่มและอาหารว่าง",
