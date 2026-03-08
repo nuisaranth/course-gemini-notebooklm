@@ -77,7 +77,7 @@ const HeroSection = () => {
 
           {/* Price hint */}
           <p className="mt-6 text-sm text-primary-foreground/60">
-            ราคาเพียง <span className="text-2xl font-extrabold text-google-yellow">฿1,900</span> / ท่าน (รวม VAT)
+            ราคาเพียง <span className="text-2xl font-extrabold text-google-yellow">฿1,900</span> / ท่าน
           </p>
         </div>
       </div>
