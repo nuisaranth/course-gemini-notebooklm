@@ -13,10 +13,10 @@ const InstructorProfile = () => {
           วิทยากร
         </span>
 
-        <h2 className="mt-4 text-3xl font-extrabold text-foreground md:text-4xl">
+        <h2 className="mt-4 text-2xl font-extrabold text-foreground md:text-4xl">
           เรียนรู้จากผู้ใช้งานจริง ไม่ใช่แค่ทฤษฎี
         </h2>
-        <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
+        <p className="mx-auto mt-3 max-w-2xl text-sm text-muted-foreground md:text-base">
           ประสบการณ์กว่า 20 ปีในวงการสื่อและเทคโนโลยี วิทยากรให้กับหน่วยงานภาครัฐและเอกชนชั้นนำ
         </p>
 
