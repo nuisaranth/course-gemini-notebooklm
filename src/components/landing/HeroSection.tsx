@@ -34,8 +34,8 @@ const HeroSection = () => {
               href={CTA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-xl bg-primary-foreground px-8 py-4 text-lg font-bold text-primary shadow-lg transition-all hover:scale-105 hover:shadow-xl"
-            >
+              className="group inline-flex items-center gap-2 rounded-xl bg-primary-foreground px-8 py-4 text-lg font-bold text-primary shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+              
               สมัครเรียนรุ่น 2 (1,900 บาท)
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
@@ -48,18 +48,18 @@ const HeroSection = () => {
                 src={workshopImg}
                 alt="Gemini Deep Research & NotebookLM Workshop"
                 className="h-auto w-full object-cover"
-                loading="eager"
-              />
+                loading="eager" />
+              
             </div>
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 rounded-xl bg-google-yellow px-4 py-2 font-bold text-foreground shadow-lg md:-bottom-6 md:-left-6">
-              🎓 Batch 2
+            <div className="absolute -bottom-4 -left-4 rounded-xl bg-google-yellow px-4 py-2 font-bold text-foreground shadow-lg md:-bottom-6 md:-left-6">🎓 รุ่น 2
+
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
