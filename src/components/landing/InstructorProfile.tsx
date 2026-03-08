@@ -51,15 +51,6 @@ const InstructorProfile = () => {
             ))}
           </div>
 
-          <a
-            href={PROFILE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
-          >
-            ดูประวัติเพิ่มเติม
-            <ExternalLink className="h-4 w-4" />
-          </a>
         </div>
       </div>
     </section>
