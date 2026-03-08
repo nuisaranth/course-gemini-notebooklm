@@ -15,7 +15,7 @@ const EventGallery = () => {
     <section className="bg-secondary/40 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <h2 className="mb-4 text-center text-2xl font-extrabold text-foreground md:text-4xl">
-          ภาพบรรยากาศการอบรม รุ่น 1
+          ภาพบรรยากาศการอบรม <span className="text-primary">รุ่น 1</span>
         </h2>
         <p className="mx-auto mb-12 max-w-lg text-center text-sm text-muted-foreground md:text-base">
           ประมวลภาพความประทับใจและบรรยากาศการเรียนรู้อย่างใกล้ชิด
