@@ -73,7 +73,7 @@ const PricingSection = () => {
               <p className="text-sm font-semibold text-muted-foreground mb-2">ค่าอบรม</p>
               <div className="flex items-center justify-center gap-1">
                 <span className="text-lg text-muted-foreground">฿</span>
-                <span className="text-5xl md:text-6xl font-extrabold text-foreground tracking-tight">1,900</span>
+                <span className="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">1,900</span>
               </div>
               <p className="mt-1 text-muted-foreground">/ ท่าน (รวม VAT แล้ว)</p>
             </div>
