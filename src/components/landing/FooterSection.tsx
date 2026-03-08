@@ -14,7 +14,7 @@ const FooterSection = () => {
               <img src={teamdigitalLogo} alt="Team Digital" className="h-10 w-auto" />
             </div>
             <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
-              บริษัท Team Digital ผู้นำทางด้านจัดอบรมการตลาดออนไลน์ จัดคอร์สเรียนการตลาดออนไลน์หลากหลายหลักสูตรทุกเดือน
+              บริษัท Team Digital ผู้นำทางด้านจัดอบรมการตลาดออนไลน์<br />จัดคอร์สเรียนการตลาดออนไลน์หลากหลายหลักสูตรทุกเดือน
             </p>
           </div>
 
