@@ -3,11 +3,11 @@ import { ArrowRight, Download, Flame, CalendarDays, Clock, MapPin, Users } from 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
-  { icon: CalendarDays, label: "รุ่น 2", value: "15 มี.ค. 69", color: "text-google-blue" },
-  { icon: Clock, label: "เวลา", value: "13:00-17:30", color: "text-google-red" },
-  { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
-  { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" },
-];
+{ icon: CalendarDays, label: "รุ่น 2", value: "15 มี.ค. 69", color: "text-google-blue" },
+{ icon: Clock, label: "เวลา", value: "13:00-17:30", color: "text-google-red" },
+{ icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
+{ icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" }];
+
 
 const HeroSection = () => {
   return (
@@ -32,23 +32,23 @@ const HeroSection = () => {
 
           {/* Sub-headline */}
           <p className="mb-10 max-w-3xl text-sm leading-relaxed text-primary-foreground/80 md:text-xl">
-            เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
+            เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตาคอร์สเวิร์กชอป 4 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10 เท่า 
             <br />
-            คอร์สเวิร์กชอป 4 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10X
+            คอร์สเวิร์กชอป 4.5 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10X
           </p>
 
           {/* Event details cards */}
           <div className="mb-10 grid w-full max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
-            {details.map((d) => (
-              <div
-                key={d.label}
-                className="flex flex-col items-center gap-2 rounded-xl bg-primary-foreground/10 px-4 py-4 backdrop-blur-sm"
-              >
+            {details.map((d) =>
+            <div
+              key={d.label}
+              className="flex flex-col items-center gap-2 rounded-xl bg-primary-foreground/10 px-4 py-4 backdrop-blur-sm">
+              
                 <d.icon className={`h-6 w-6 ${d.color}`} />
                 <span className="text-xs font-medium text-primary-foreground/70">{d.label}</span>
                 <span className="text-sm font-bold">{d.value}</span>
               </div>
-            ))}
+            )}
           </div>
 
           {/* CTAs */}
@@ -57,8 +57,8 @@ const HeroSection = () => {
               href={CTA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-xl bg-primary-foreground px-8 py-4 text-lg font-bold text-primary shadow-lg transition-all hover:scale-105 hover:shadow-xl"
-            >
+              className="group inline-flex items-center gap-2 rounded-xl bg-primary-foreground px-8 py-4 text-lg font-bold text-primary shadow-lg transition-all hover:scale-105 hover:shadow-xl">
+              
               สมัครเรียน
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
@@ -66,8 +66,8 @@ const HeroSection = () => {
               href={CTA_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-xl border-2 border-primary-foreground/40 px-8 py-4 text-lg font-bold text-primary-foreground transition-all hover:border-primary-foreground hover:bg-primary-foreground/10"
-            >
+              className="inline-flex items-center gap-2 rounded-xl border-2 border-primary-foreground/40 px-8 py-4 text-lg font-bold text-primary-foreground transition-all hover:border-primary-foreground hover:bg-primary-foreground/10">
+              
               <Download className="h-5 w-5" />
               ดาวน์โหลดรายละเอียด
             </a>
@@ -79,8 +79,8 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
