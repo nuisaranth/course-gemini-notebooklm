@@ -1,4 +1,5 @@
 import { Phone, MessageCircle, Mail } from "lucide-react";
+import teamdigitalLogo from "@/assets/teamdigital-logo.jpg";
 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
@@ -9,14 +10,8 @@ const FooterSection = () => {
         <div className="grid gap-10 md:grid-cols-2">
           {/* Company info */}
           <div>
-            <div className="mb-4 flex items-center gap-2">
-              <div className="flex gap-1">
-                <span className="h-2.5 w-2.5 rounded-full bg-google-blue" />
-                <span className="h-2.5 w-2.5 rounded-full bg-google-red" />
-                <span className="h-2.5 w-2.5 rounded-full bg-google-yellow" />
-                <span className="h-2.5 w-2.5 rounded-full bg-google-green" />
-              </div>
-              <span className="text-lg font-bold text-foreground">Team Digital</span>
+            <div className="mb-4">
+              <img src={teamdigitalLogo} alt="Team Digital" className="h-10 w-auto" />
             </div>
             <p className="max-w-md text-sm leading-relaxed text-muted-foreground">
               บริษัท Team Digital ผู้นำทางด้านจัดอบรมการตลาดออนไลน์ จัดคอร์สเรียนการตลาดออนไลน์หลากหลายหลักสูตรทุกเดือน
