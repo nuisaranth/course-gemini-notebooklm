@@ -77,36 +77,35 @@ const PricingSection = () => {
               </div>
               <p className="mt-1 text-muted-foreground">/ ท่าน (รวม VAT แล้ว)</p>
             </div>
-          </div>
+            {/* What's included */}
+            <div className="border-t border-border my-6" />
+            <div className="space-y-3 mb-8">
+              {included.map((item, i) =>
+                <div key={i} className="flex items-center gap-3">
+                  <Check className="h-5 w-5 shrink-0 text-google-green" />
+                  <p className="text-sm text-foreground">{item}</p>
+                </div>
+              )}
+            </div>
 
-          {/* What's included */}
-          <div className="space-y-3 mb-8 px-2">
-            {included.map((item, i) =>
-            <div key={i} className="flex items-center gap-3">
-                <Check className="h-5 w-5 shrink-0 text-google-green" />
-                <p className="text-sm text-foreground">{item}</p>
-              </div>
-            )}
-          </div>
-
-          {/* CTA */}
-          <a
-            href={CTA_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex w-full items-center justify-center rounded-xl bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:scale-[1.02] hover:shadow-xl">
-            
-            สมัครอบรมเลย
-          </a>
-
-          {/* Contact */}
-          <p className="mt-4 text-center text-sm text-muted-foreground">
-            สอบถาม: <a href="tel:02-077-1784" className="underline">02-077-1784</a>{" "}
-            หรือ LINE{" "}
-            <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="underline text-primary">
-              @teamdigital
+            {/* CTA */}
+            <a
+              href={CTA_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex w-full items-center justify-center rounded-xl bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:scale-[1.02] hover:shadow-xl">
+              สมัครอบรมเลย
             </a>
-          </p>
+
+            {/* Contact */}
+            <p className="mt-4 text-center text-sm text-muted-foreground">
+              สอบถาม: <a href="tel:02-077-1784" className="underline">02-077-1784</a>{" "}
+              หรือ LINE{" "}
+              <a href={CTA_LINK} target="_blank" rel="noopener noreferrer" className="underline text-primary">
+                @teamdigital
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>);
