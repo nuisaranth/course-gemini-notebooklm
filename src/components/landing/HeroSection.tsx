@@ -63,7 +63,7 @@ const HeroSection = () => {
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href={CTA_LINK}
+              href="https://teamdigital.co/pdf/Gemini-NotebookLM.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border-2 border-primary-foreground/40 px-8 py-4 text-lg font-bold text-primary-foreground transition-all hover:border-primary-foreground hover:bg-primary-foreground/10">
