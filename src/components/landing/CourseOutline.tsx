@@ -48,9 +48,8 @@ const CourseOutline = () => {
         <p className="text-center text-sm font-bold text-google-blue">หลักสูตร</p>
         <h2 className="mt-2 text-center text-3xl font-extrabold md:text-4xl">
           <span className="text-google-blue">Gemini </span>
-          <span className="text-google-red">Deep </span>
-          <span className="text-google-yellow">Research </span>
-          <span className="text-foreground">&amp; </span>
+          <span className="text-slate-900">Deep Research </span>
+          <span className="text-slate-400">&amp; </span>
           <span className="text-google-green">NotebookLM</span>
         </h2>
         <p className="mt-4 mb-10 text-center text-lg text-muted-foreground">
