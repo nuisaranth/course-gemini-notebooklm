@@ -44,7 +44,7 @@ const PricingSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">เวลา 13:00 - 17:00 น.</span>
+                <span className="text-foreground font-medium">เวลา 13:00 - 17:30 น.</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
