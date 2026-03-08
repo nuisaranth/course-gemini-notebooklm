@@ -1,4 +1,4 @@
-import { ArrowRight, Bot, Menu, X } from "lucide-react";
+import { ArrowRight, BrainCircuit, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
