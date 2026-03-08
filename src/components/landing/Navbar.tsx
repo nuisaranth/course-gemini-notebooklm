@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 font-bold text-foreground">
-          <BrainCog className="h-6 w-6 text-primary" />
+          <BookOpen className="h-6 w-6 text-primary" />
           Team Digital
         </a>
 
