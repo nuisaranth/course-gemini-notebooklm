@@ -45,9 +45,17 @@ const CourseOutline = () => {
   return (
     <section className="bg-secondary/40 py-16 md:py-24">
       <div className="container mx-auto px-4">
-        <h2 className="mb-12 text-center text-3xl font-extrabold text-foreground md:text-4xl">
-          กำหนดการและเนื้อหาหลักสูตร
+        <p className="text-center text-sm font-bold text-google-blue">หลักสูตร</p>
+        <h2 className="mt-2 text-center text-3xl font-extrabold md:text-4xl">
+          <span className="text-google-blue">Gemini </span>
+          <span className="text-google-red">Deep </span>
+          <span className="text-google-yellow">Research </span>
+          <span className="text-foreground">&amp; </span>
+          <span className="text-google-green">NotebookLM</span>
         </h2>
+        <p className="mt-4 mb-10 text-center text-lg text-muted-foreground">
+          เนื้อหาหลักสูตรเวิร์กชอป 1 วันเต็ม ครอบคลุมการใช้งาน Agentic AI ขั้นสูง
+        </p>
 
         <div className="mx-auto max-w-2xl">
           {timeline.map((item: TimelineItem, i) => (
