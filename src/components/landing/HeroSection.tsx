@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-[hsl(var(--google-yellow)/0.1)] blur-3xl" />
       <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-[hsl(var(--google-green)/0.08)] blur-3xl" />
 
-      <div className="container relative mx-auto px-4 py-14 md:py-24">
+      <div className="container relative mx-auto px-4 py-10 md:py-16">
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-5 py-2 text-sm font-semibold backdrop-blur-sm">
