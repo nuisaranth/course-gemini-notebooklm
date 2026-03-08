@@ -8,6 +8,7 @@ import EventGallery from "@/components/landing/EventGallery";
 import PricingSection from "@/components/landing/PricingSection";
 import FooterSection from "@/components/landing/FooterSection";
 import FAQSection from "@/components/landing/FAQSection";
+import StickyBottomBar from "@/components/landing/StickyBottomBar";
 
 const Index = () => {
   return (
