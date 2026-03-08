@@ -23,6 +23,7 @@ const Index = () => {
       <div id="pricing"><PricingSection /></div>
       <div id="faq"><FAQSection /></div>
       <FooterSection />
+      <StickyBottomBar />
     </div>
   );
 };
