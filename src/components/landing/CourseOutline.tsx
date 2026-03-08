@@ -53,7 +53,7 @@ const CourseOutline = () => {
           <span className="text-google-green">NotebookLM</span>
         </h2>
         <p className="mt-4 mb-10 text-center text-lg text-muted-foreground">
-          เนื้อหาหลักสูตรเวิร์กชอป 1 วันเต็ม ครอบคลุมการใช้งาน Agentic AI ขั้นสูง
+          เนื้อหาหลักสูตรเวิร์กชอปเข้มข้น 4 ชั่วโมงเต็ม ครอบคลุมการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงาน
         </p>
 
         <div className="mx-auto max-w-2xl">
