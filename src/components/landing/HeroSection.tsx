@@ -15,23 +15,23 @@ const HeroSection = () => {
       <div className="absolute -top-32 -right-32 h-96 w-96 rounded-full bg-[hsl(var(--google-yellow)/0.1)] blur-3xl" />
       <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-[hsl(var(--google-green)/0.08)] blur-3xl" />
 
-      <div className="container relative mx-auto px-4 py-20 md:py-32">
+      <div className="container relative mx-auto px-4 py-14 md:py-24">
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           {/* Badge */}
-          <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-5 py-2 text-sm font-semibold backdrop-blur-sm">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-5 py-2 text-sm font-semibold backdrop-blur-sm">
             <Flame className="h-4 w-4 text-google-yellow" />
             เปิดรับสมัครรุ่นที่ 2 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
           </div>
 
           {/* Headline */}
-          <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl">
+          <h1 className="mb-5 text-3xl font-extrabold leading-tight tracking-tight md:text-5xl lg:text-6xl">
             ปลดล็อกการทำงานยุคใหม่ด้วย AI:{" "}
             <span className="text-google-yellow">Gemini Deep Research</span> &{" "}
             <span className="text-google-green">NotebookLM</span>
           </h1>
 
           {/* Sub-headline */}
-          <p className="mb-10 max-w-2xl text-lg leading-relaxed text-primary-foreground/80 md:text-xl">
+          <p className="mb-10 max-w-3xl text-lg leading-relaxed text-primary-foreground/80 md:text-xl">
             เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
             <br className="hidden md:block" />
             คอร์สเวิร์กชอป 4 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10X
