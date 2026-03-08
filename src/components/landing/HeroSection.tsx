@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="container relative mx-auto px-4 py-10 md:py-16">
         <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           {/* Badge */}
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-5 py-2 text-sm font-semibold backdrop-blur-sm">
+          <div className="mb-6 inline-flex items-center gap-1.5 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-xs font-semibold backdrop-blur-sm sm:gap-2 sm:px-5 sm:py-2 sm:text-sm">
             <Flame className="h-4 w-4 text-google-yellow" />
             เปิดรับสมัครรุ่นที่ 2 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
           </div>
