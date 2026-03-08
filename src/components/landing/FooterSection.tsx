@@ -1,5 +1,5 @@
 import { Phone, MessageCircle, Mail } from "lucide-react";
-import teamdigitalLogo from "@/assets/teamdigital-logo.jpg";
+import teamdigitalLogo from "@/assets/team-digital-logo.png";
 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
