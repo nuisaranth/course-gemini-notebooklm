@@ -4,6 +4,7 @@ import WhatYouLearn from "@/components/landing/WhatYouLearn";
 import CourseOutline from "@/components/landing/CourseOutline";
 import TargetAudience from "@/components/landing/TargetAudience";
 import InstructorProfile from "@/components/landing/InstructorProfile";
+import EventGallery from "@/components/landing/EventGallery";
 import PricingSection from "@/components/landing/PricingSection";
 import FooterSection from "@/components/landing/FooterSection";
 
@@ -16,6 +17,7 @@ const Index = () => {
       <CourseOutline />
       <TargetAudience />
       <InstructorProfile />
+      <EventGallery />
       <PricingSection />
       <FooterSection />
     </div>
