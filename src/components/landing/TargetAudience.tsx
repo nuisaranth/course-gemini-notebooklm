@@ -1,13 +1,10 @@
-import { CheckCircle2, XCircle } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 
 const yes = [
   "ผู้ที่ใช้งาน AI เบื้องต้นเป็นอยู่แล้ว และต้องการต่อยอดเทคนิคขั้นสูงขึ้น",
   "คนทำงานที่ต้องสรุปเอกสาร อ่านบทความ หรือหาข้อมูลจำนวนมาก",
   'ผู้ที่ต้องการดึง "ไอเดีย" และเพิ่ม "ความเร็ว" ในการทำงาน (Productivity)',
 ];
-
-const no =
-  "ไม่เหมาะสำหรับสาย Tech/Developer ที่ต้องการความแม่นยำของข้อมูล 100% (Fact-checking) คอร์สนี้เน้นความรวดเร็วและไอเดีย";
 
 const TargetAudience = () => {
   return (
@@ -23,10 +20,6 @@ const TargetAudience = () => {
               <p className="text-sm font-medium text-foreground">{item}</p>
             </div>
           ))}
-          <div className="flex items-start gap-3 rounded-xl border border-google-red/20 bg-google-red/5 p-4">
-            <XCircle className="mt-0.5 h-5 w-5 shrink-0 text-google-red" />
-            <p className="text-sm font-medium text-foreground">{no}</p>
-          </div>
         </div>
       </div>
     </section>
