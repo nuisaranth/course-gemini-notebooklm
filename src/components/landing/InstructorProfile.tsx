@@ -17,7 +17,7 @@ const InstructorProfile = () => {
           เรียนรู้จากผู้ใช้งานจริง ไม่ใช่แค่ทฤษฎี
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-          ประสบการณ์กว่า 20 ปีในวงการสื่อและเทคโนโลยี สอนให้กับหน่วยงานรัฐและเอกชนกว่า 10,000 องค์กร
+          ประสบการณ์กว่า 20 ปีในวงการสื่อและเทคโนโลยี วิทยากรให้กับหน่วยงานภาครัฐและเอกชนชั้นนำ
         </p>
 
         {/* Card */}
@@ -51,15 +51,6 @@ const InstructorProfile = () => {
             ))}
           </div>
 
-          <a
-            href={PROFILE_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-primary hover:underline"
-          >
-            ดูประวัติเพิ่มเติม
-            <ExternalLink className="h-4 w-4" />
-          </a>
         </div>
       </div>
     </section>
