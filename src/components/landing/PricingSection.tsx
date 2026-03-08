@@ -3,7 +3,7 @@ import { Check, Calendar, Clock, MapPin, Users } from "lucide-react";
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const included = [
-"อบรมสด 4 ชั่วโมงเต็ม (ไม่ใช่ออนไลน์)",
+"อบรมสด 4.5 ชั่วโมงเต็ม (ไม่ใช่ออนไลน์)",
 "กลุ่มเล็กไม่เกิน 10 ท่าน ดูแลทั่วถึง",
 "เอกสารประกอบการอบรม",
 "เครื่องดื่มและอาหารว่าง",
@@ -44,7 +44,7 @@ const PricingSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">เวลา 13:00 - 17:00 น.</span>
+                <span className="text-foreground font-medium">เวลา 13:00 - 17:30 น.</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />

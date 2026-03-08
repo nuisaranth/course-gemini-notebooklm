@@ -3,24 +3,43 @@ import { Coffee } from "lucide-react";
 const timeline = [
   {
     time: "13:00 - 15:00 น.",
-    title: "ปูพื้นฐาน Prompt Engineering & Gemini Deep Research",
-    desc: "เจาะลึกการใช้งาน Google Gemini Deep Research เพื่อการหาข้อมูลขั้นสูง",
+    title: "เจาะลึก AI, Prompt Engineering & Deep Research",
+    bullets: [
+      "ปูพื้นฐาน Prompt Engineering ด้วยสูตร RTCF (Role-Task-Context-Format)",
+      "การสร้าง Persona อัจฉริยะ ให้ AI สวมบทบาทผู้เชี่ยวชาญเพื่อช่วยงานองค์กร",
+      'เทคนิคสกัด "ประสบการณ์" ให้เป็นทรัพย์สินทางปัญญา (IP) ด้วย AI',
+      "การใช้ Gemini Deep Research ขุดค้นและวิเคราะห์ข้อมูลเชิงลึกแบบอัตโนมัติ",
+    ],
     dot: "bg-google-blue",
   },
   {
-    time: "15:00 - 15:15 น.",
-    title: "☕ พักรับประทานอาหารว่าง",
-    desc: "เสิร์ฟเครื่องดื่มและเบเกอรี่",
+    time: "15:00 - 15:30 น. (พักเบรก 30 นาที)",
+    title: "พักเบรกและ Networking (Coffee Break)",
+    desc: "เสิร์ฟเครื่องดื่มและเบเกอรี่ พร้อมเวลาพูดคุยสอบถามวิทยากรแบบส่วนตัว",
     dot: "bg-google-yellow",
     isBreak: true,
   },
   {
-    time: "15:15 - 17:00 น.",
-    title: "Workshop: NotebookLM & Google Vids",
-    desc: "เวิร์กชอป Google NotebookLM จัดการข้อมูลมหาศาล และแนะนำการใช้งาน Google Vids เบื้องต้น",
+    time: "15:30 - 17:30 น.",
+    title: "เวิร์กชอป NotebookLM, Gems & Google Vids",
+    bullets: [
+      'เวิร์กชอป NotebookLM: สร้าง "สมองที่สอง" ย่อยเอกสารนับร้อยหน้าในพริบตา',
+      "การทำ Audio Overview เปลี่ยนรายงานที่น่าเบื่อให้เป็นเสียงพอดแคสต์",
+      "สร้างและปรับแต่ง Gemini Gems ให้เป็นทีมที่ปรึกษาเสมือนส่วนตัว (Virtual C-Suite)",
+      "[Bonus] แนะนำ Google Vids สร้างวิดีโอพรีเซนต์เทชันระดับโปรด้วย AI",
+    ],
     dot: "bg-google-green",
   },
 ];
+
+interface TimelineItem {
+  time: string;
+  title: string;
+  desc?: string;
+  bullets?: string[];
+  dot: string;
+  isBreak?: boolean;
+}
 
 const CourseOutline = () => {
   return (
@@ -31,7 +50,7 @@ const CourseOutline = () => {
         </h2>
 
         <div className="mx-auto max-w-2xl">
-          {timeline.map((item, i) => (
+          {timeline.map((item: TimelineItem, i) => (
             <div key={i} className="relative flex gap-6 pb-10 last:pb-0">
               {/* Line */}
               {i < timeline.length - 1 && (
@@ -49,7 +68,17 @@ const CourseOutline = () => {
               <div className={`rounded-xl border border-border bg-card p-5 shadow-card flex-1 ${item.isBreak ? "bg-google-yellow/5" : ""}`}>
                 <p className="mb-1 text-xs font-bold uppercase tracking-wider text-muted-foreground">{item.time}</p>
                 <h3 className="mb-1 text-base font-bold text-card-foreground">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.desc}</p>
+                {item.desc && <p className="text-sm text-muted-foreground">{item.desc}</p>}
+                {item.bullets && (
+                  <ul className="mt-2 space-y-1.5">
+                    {item.bullets.map((b, j) => (
+                      <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                        {b}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
             </div>
           ))}
