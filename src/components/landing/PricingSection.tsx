@@ -3,13 +3,13 @@ import { Check, Calendar, Clock, MapPin, Users } from "lucide-react";
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const included = [
-  "อบรมสด 1 วันเต็ม (ไม่ใช่ออนไลน์)",
-  "กลุ่มเล็กไม่เกิน 10 ท่าน ดูแลทั่วถึง",
-  "เอกสารประกอบการอบรม",
-  "เครื่องดื่มและอาหารว่าง",
-  "เข้ากลุ่มลับ LINE ตลอดชีพ",
-  "หักภาษี ณ ที่จ่ายได้ (นิติบุคคล)",
-];
+"อบรมสด 1 วันเต็ม (ไม่ใช่ออนไลน์)",
+"กลุ่มเล็กไม่เกิน 10 ท่าน ดูแลทั่วถึง",
+"เอกสารประกอบการอบรม",
+"เครื่องดื่มและอาหารว่าง",
+"เข้ากลุ่มลับ LINE ตลอดชีพ",
+"หักภาษี ณ ที่จ่ายได้ (นิติบุคคล)"];
+
 
 const PricingSection = () => {
   return (
@@ -44,7 +44,7 @@ const PricingSection = () => {
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">เวลา 09:00 - 16:30 น.</span>
+                <span className="text-foreground font-medium">เวลา 13:00 - 17:00 น.</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
@@ -53,8 +53,8 @@ const PricingSection = () => {
                     href="https://maps.app.goo.gl/vVKHdN76rwAxhGH1A"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-foreground font-medium underline decoration-primary/40 hover:decoration-primary"
-                  >
+                    className="text-foreground font-medium underline decoration-primary/40 hover:decoration-primary">
+                    
                     Punthai Coffee ลาดพร้าว 130
                   </a>
                   <p className="text-sm text-muted-foreground flex items-center gap-1 mt-0.5">
@@ -81,12 +81,12 @@ const PricingSection = () => {
 
           {/* What's included */}
           <div className="space-y-3 mb-8 px-2">
-            {included.map((item, i) => (
-              <div key={i} className="flex items-center gap-3">
+            {included.map((item, i) =>
+            <div key={i} className="flex items-center gap-3">
                 <Check className="h-5 w-5 shrink-0 text-google-green" />
                 <p className="text-sm text-foreground">{item}</p>
               </div>
-            ))}
+            )}
           </div>
 
           {/* CTA */}
@@ -94,8 +94,8 @@ const PricingSection = () => {
             href={CTA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex w-full items-center justify-center rounded-xl bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:scale-[1.02] hover:shadow-xl"
-          >
+            className="flex w-full items-center justify-center rounded-xl bg-primary px-8 py-4 text-lg font-bold text-primary-foreground shadow-lg transition-all hover:bg-primary/90 hover:scale-[1.02] hover:shadow-xl">
+            
             สมัครอบรมเลย
           </a>
 
@@ -109,8 +109,8 @@ const PricingSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default PricingSection;
