@@ -42,10 +42,6 @@ const FooterSection = () => {
             </div>
           </div>
         </div>
-
-        <div className="mt-10 border-t border-border pt-6 text-center">
-          <p className="text-sm text-muted-foreground">© 2026 Team Digital — All rights reserved.</p>
-        </div>
       </div>
     </footer>
   );
