@@ -40,8 +40,8 @@ const InstructorProfile = () => {
             {[
               { icon: Youtube, text: 'YouTuber ช่อง "ชีพธรรม คำวิเศษณ์" ผู้ติดตามกว่า 230,000 คน' },
               { icon: Briefcase, text: "อดีตนักข่าว อสมท. และนักจัดรายการวิทยุ FM101 ด้านเทคโนโลยี" },
-              { icon: Award, text: "ผู้ร่วมก่อตั้งสถาบัน Team Digital และอดีตที่ปรึกษา Social Media กระทรวงการต่างประเทศ" },
-              { icon: BookOpen, text: "ผู้แต่งหนังสือ เช่น Google Apps, จับเสือมือเปล่า, เรียน MBA ฟรีที่ฮาร์วาร์ด" },
+              { icon: Award, text: "อดีตที่ปรึกษา Social Media กระทรวงการต่างประเทศ" },
+              { icon: BookOpen, text: "ผู้แต่งหนังสือ Google Apps, จับเสือมือเปล่า, เรียน MBA ฟรีที่ฮาร์วาร์ด" },
               { icon: Cpu, text: "ผู้ใช้งานจริงยุคแรกเริ่ม ที่ใช้ NotebookLM ทำงานและสร้างคอนเทนต์มาเกือบ 2 ปี" },
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
