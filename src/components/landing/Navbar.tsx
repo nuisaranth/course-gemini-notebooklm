@@ -1,4 +1,4 @@
-import { ArrowRight, Bot, Menu, X } from "lucide-react";
+import { ArrowRight, BrainCircuit, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 font-bold text-foreground">
-          <Bot className="h-6 w-6 text-primary" />
+          <BrainCircuit className="h-6 w-6 text-primary" />
           Team Digital
         </a>
 
