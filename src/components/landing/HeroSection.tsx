@@ -16,7 +16,7 @@ const HeroSection = () => {
       <div className="absolute -bottom-24 -left-24 h-80 w-80 rounded-full bg-[hsl(var(--google-green)/0.08)] blur-3xl" />
 
       <div className="container relative mx-auto px-4 py-20 md:py-32">
-        <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
+        <div className="mx-auto flex max-w-5xl flex-col items-center text-center">
           {/* Badge */}
           <div className="mb-8 inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-5 py-2 text-sm font-semibold backdrop-blur-sm">
             <Flame className="h-4 w-4 text-google-yellow" />
