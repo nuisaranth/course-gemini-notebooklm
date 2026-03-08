@@ -1,5 +1,6 @@
-import { ExternalLink, Youtube, Cpu, BookOpenCheck } from "lucide-react";
+import { ExternalLink, Youtube, Briefcase, BookOpen, Award, Cpu } from "lucide-react";
 import instructorImg from "@/assets/instructor.png";
+
 const PROFILE_URL =
   "https://www.teamdigital.co/instructors/%E0%B8%AD-%E0%B8%8A%E0%B8%B5%E0%B8%9E%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1-%E0%B8%84%E0%B8%B3%E0%B8%A7%E0%B8%B4%E0%B9%80%E0%B8%A8%E0%B8%A9%E0%B8%93%E0%B9%8C/";
 
@@ -16,7 +17,7 @@ const InstructorProfile = () => {
           เรียนรู้จากผู้ใช้งานจริง ไม่ใช่แค่ทฤษฎี
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-          ยูทูบเบอร์ช่อง "ชีพธรรม คำวิเศษณ์" ผู้ติดตามกว่า 230,000 คน ผู้เชี่ยวชาญด้านการประยุกต์ใช้ AI
+          ประสบการณ์กว่า 20 ปีในวงการสื่อและเทคโนโลยี สอนให้กับหน่วยงานรัฐและเอกชนกว่า 10,000 องค์กร
         </p>
 
         {/* Card */}
@@ -37,9 +38,11 @@ const InstructorProfile = () => {
 
           <div className="mx-auto mt-5 max-w-md space-y-3 text-left">
             {[
-              { icon: Youtube, text: 'ยูทูบเบอร์ช่อง "ชีพธรรม คำวิเศษณ์" (ผู้ติดตามกว่า 230,000 คน)' },
-              { icon: Cpu, text: "ผู้เชี่ยวชาญด้านการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงานและการเล่าเรื่อง" },
-              { icon: BookOpenCheck, text: "ผู้ใช้งานจริงยุคแรกเริ่ม ที่ใช้ NotebookLM ทำงานและสร้างคอนเทนต์มาเกือบ 2 ปี" },
+              { icon: Youtube, text: 'YouTuber ช่อง "ชีพธรรม คำวิเศษณ์" ผู้ติดตามกว่า 230,000 คน' },
+              { icon: Briefcase, text: "อดีตนักข่าว อสมท. และนักจัดรายการวิทยุ FM101 ด้านเทคโนโลยี" },
+              { icon: Award, text: "ผู้ร่วมก่อตั้งสถาบัน Team Digital และอดีตที่ปรึกษา Social Media กระทรวงการต่างประเทศ" },
+              { icon: BookOpen, text: "ผู้แต่งหนังสือ เช่น Google Apps, จับเสือมือเปล่า, เรียน MBA ฟรีที่ฮาร์วาร์ด" },
+              { icon: Cpu, text: "ผู้ใช้งานจริงยุคแรกเริ่ม ที่ใช้ NotebookLM ทำงานและสร้างคอนเทนต์มาเกือบ 2 ปี" },
             ].map((b, i) => (
               <div key={i} className="flex items-start gap-3">
                 <b.icon className="mt-0.5 h-5 w-5 shrink-0 text-primary" />
