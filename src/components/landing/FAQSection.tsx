@@ -41,7 +41,7 @@ const FAQSection = () => {
           คำถามที่พบบ่อย
         </p>
         <h2 className="text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl mb-4">
-          มีคำถามไหม?
+          มีคำถาม<span className="text-primary">ไหม?</span>
         </h2>
         <p className="text-center text-muted-foreground mb-10">
           รวมคำถามที่พบบ่อยเกี่ยวกับหลักสูตรอบรม AI: Gemini Deep Research & NotebookLM
