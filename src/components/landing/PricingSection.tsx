@@ -23,7 +23,7 @@ const PricingSection = () => {
           สมัครอบรม<span className="text-primary">รุ่นนี้</span>
         </h2>
         <p className="mx-auto mb-10 max-w-md text-center text-muted-foreground">
-          รุ่น 2 เปิดรับสมัครแล้ว จำนวนจำกัด
+          รุ่น 3 เปิดรับสมัครแล้ว จำนวนจำกัด
         </p>
 
         <div className="mx-auto max-w-lg">
@@ -32,7 +32,7 @@ const PricingSection = () => {
             {/* Batch badge */}
             <div className="flex justify-center mb-6">
               <span className="rounded-full border border-primary/30 bg-primary/5 px-5 py-1.5 text-sm font-semibold text-primary">
-                รุ่น 2
+                รุ่น 3
               </span>
             </div>
 
@@ -40,7 +40,7 @@ const PricingSection = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
                 <Calendar className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">วันที่ 15 มีนาคม 2569</span>
+                <span className="text-foreground font-medium">วันที่ 22 มีนาคม 2569</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />

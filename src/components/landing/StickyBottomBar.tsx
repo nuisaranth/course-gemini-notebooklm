@@ -28,7 +28,7 @@ const StickyBottomBar = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <div>
-          <p className="text-sm text-muted-foreground">รุ่น 2: 15 มีนาคม 2569</p>
+          <p className="text-sm text-muted-foreground">รุ่น 3: 22 มีนาคม 2569</p>
           <p className="text-lg font-extrabold text-primary">
             ฿1,900 <span className="text-sm font-normal text-muted-foreground">รวม VAT</span>
           </p>
