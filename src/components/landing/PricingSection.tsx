@@ -3,10 +3,10 @@ import { Check, Calendar, Clock, MapPin, Users } from "lucide-react";
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const included = [
-"อบรมสด 4 ชั่วโมงเต็ม (ไม่ใช่ออนไลน์)",
+"อบรมสด 7 ชั่วโมงเต็ม (ไม่ใช่ออนไลน์)",
 "กลุ่มเล็กไม่เกิน 10 ท่าน ดูแลทั่วถึง",
 "เอกสารประกอบการอบรม",
-"เครื่องดื่มและอาหารว่าง",
+"อาหารกลางวัน 1 มื้อ และเบรค (เครื่องดื่ม+เบเกอรี่) 2 ครั้ง",
 "เข้ากลุ่มลับ LINE ตลอดชีพ",
 "หักภาษี ณ ที่จ่ายได้ (นิติบุคคล)"];
 
@@ -40,11 +40,11 @@ const PricingSection = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
                 <Calendar className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">วันที่ 22 มีนาคม 2569</span>
+                <span className="text-foreground font-medium">วันที่ 1 เมษายน 2569</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">เวลา 13:00 - 17:30 น.</span>
+                <span className="text-foreground font-medium">เวลา 09:00 - 17:00 น.</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary shrink-0 mt-0.5" />
@@ -73,7 +73,7 @@ const PricingSection = () => {
               <p className="text-sm font-semibold text-muted-foreground mb-2">ค่าอบรม</p>
               <div className="flex items-center justify-center gap-1">
                 <span className="text-lg text-muted-foreground">฿</span>
-                <span className="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">1,900</span>
+                <span className="text-5xl md:text-6xl font-extrabold text-primary tracking-tight">3,900</span>
               </div>
               <p className="mt-1 text-muted-foreground">/ ท่าน (รวม VAT แล้ว)</p>
             </div>

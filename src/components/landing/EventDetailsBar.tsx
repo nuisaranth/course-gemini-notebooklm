@@ -1,8 +1,8 @@
 import { CalendarDays, Clock, MapPin, Laptop } from "lucide-react";
 
 const details = [
-  { icon: CalendarDays, label: "วันที่", value: "22 มีนาคม 2569", color: "text-google-blue" },
-  { icon: Clock, label: "เวลา", value: "13:00 - 17:30 น.", color: "text-google-red" },
+  { icon: CalendarDays, label: "วันที่", value: "1 เมษายน 2569", color: "text-google-blue" },
+  { icon: Clock, label: "เวลา", value: "09:00 - 17:00 น.", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "ห้องประชุม กาแฟพันธุ์ไทย ลาดพร้าว 130", color: "text-google-green" },
   { icon: Laptop, label: "สิ่งที่ต้องเตรียมมา", value: "คอมพิวเตอร์พกพา (พร้อมอะแดปเตอร์) และ บัญชี Google", color: "text-google-yellow" },
 ];

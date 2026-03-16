@@ -2,7 +2,7 @@ import { Coffee } from "lucide-react";
 
 const timeline = [
   {
-    time: "13:00 - 15:00 น.",
+    time: "09:00 - 12:00 น.",
     title: "เจาะลึก AI, Prompt Engineering & Deep Research",
     bullets: [
       "ปูพื้นฐาน Prompt Engineering ด้วยสูตร RTCF (Role-Task-Context-Format)",
@@ -13,14 +13,14 @@ const timeline = [
     dot: "bg-google-blue",
   },
   {
-    time: "15:00 - 15:30 น. (พักเบรก 30 นาที)",
-    title: "พักเบรกและ Networking (Coffee Break)",
-    desc: "เสิร์ฟเครื่องดื่มและเบเกอรี่ พร้อมเวลาพูดคุยสอบถามวิทยากรแบบส่วนตัว",
+    time: "12:00 - 13:00 น.",
+    title: "พักรับประทานอาหารกลางวัน",
+    desc: "อาหารกลางวัน 1 มื้อ และพักผ่อนตามอัธยาศัย",
     dot: "bg-google-yellow",
     isBreak: true,
   },
   {
-    time: "15:30 - 17:30 น.",
+    time: "13:00 - 17:00 น.",
     title: "เวิร์กชอป NotebookLM, Gems & Google Vids",
     bullets: [
       'เวิร์กชอป NotebookLM: สร้าง "สมองที่สอง" ย่อยเอกสารนับร้อยหน้าในพริบตา',
@@ -53,7 +53,7 @@ const CourseOutline = () => {
           <span className="text-google-green">NotebookLM</span>
         </h2>
         <p className="mt-4 mb-10 text-center text-lg text-muted-foreground">
-          เนื้อหาหลักสูตรเวิร์กชอปเข้มข้น 4 ชั่วโมงเต็ม ครอบคลุมการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงาน
+          เนื้อหาหลักสูตรเวิร์กชอปเข้มข้น 7 ชั่วโมงเต็ม ครอบคลุมการประยุกต์ใช้ AI เพื่อเพิ่มประสิทธิภาพการทำงาน
         </p>
 
         <div className="mx-auto max-w-2xl">

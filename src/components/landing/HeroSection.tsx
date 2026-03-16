@@ -3,8 +3,8 @@ import { ArrowRight, Download, Flame, CalendarDays, Clock, MapPin, Users } from 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
-  { icon: CalendarDays, label: "รุ่น 3", value: "22 มี.ค. 69", color: "text-google-blue" },
-  { icon: Clock, label: "เวลา", value: "13:00-17:30", color: "text-google-red" },
+  { icon: CalendarDays, label: "รุ่น 3", value: "1 เม.ย. 69", color: "text-google-blue" },
+  { icon: Clock, label: "เวลา", value: "09:00-17:00", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
   { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" }];
 
@@ -33,8 +33,7 @@ const HeroSection = () => {
           {/* Sub-headline */}
           <p className="mb-10 max-w-3xl text-sm leading-relaxed text-primary-foreground/80 md:text-xl">
             เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
-            <br />
-            คอร์สเวิร์กชอป 4 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10 เท่า
+            คอร์สเวิร์กชอป 7 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10 เท่า
           </p>
 
           {/* Event details cards */}
@@ -75,12 +74,12 @@ const HeroSection = () => {
 
           {/* Price hint */}
           <p className="mt-6 text-sm text-primary-foreground/60">
-            ราคาเพียง <span className="text-2xl font-extrabold text-google-yellow">฿1,900</span> / ท่าน (รวม VAT)
+            ราคาเพียง <span className="text-2xl font-extrabold text-google-yellow">฿3,900</span> / ท่าน (รวม VAT)
           </p>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 };
 
 export default HeroSection;
