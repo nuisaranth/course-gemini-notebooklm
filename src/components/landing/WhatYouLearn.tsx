@@ -1,4 +1,4 @@
-import { Sparkles, Search, BookOpen, Lightbulb, Users, Video } from "lucide-react";
+import { Sparkles, Search, BookOpen, Lightbulb, Users, Workflow } from "lucide-react";
 
 const items = [
   {
@@ -36,7 +36,7 @@ const items = [
     title: "AI Strategy Workflow",
     desc: "เทคนิคการใช้ Gemini ร่วมกับ NotebookLM เพื่อเปลี่ยนข้อมูล Research มหาศาล ให้กลายเป็นแผนกลยุทธ์และ Action Plan ที่ใช้งานได้จริง",
     accent: "bg-google-red/10 text-google-red",
-  },
+  }
 ];
 
 const WhatYouLearn = () => {

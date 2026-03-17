@@ -21,7 +21,7 @@ const timeline = [
   },
   {
     time: "13:00 - 17:00 น.",
-    title: "เวิร์กชอป NotebookLM, Gems & Google Vids",
+    title: "เวิร์กชอปภาคปฏิบัติ: NotebookLM & Gemini Gems",
     bullets: [
       'เวิร์กชอป NotebookLM: สร้าง "สมองที่สอง" ย่อยเอกสารนับร้อยหน้าในพริบตา',
       "การทำ Audio Overview เปลี่ยนรายงานที่น่าเบื่อให้เป็นเสียงพอดแคสต์",
