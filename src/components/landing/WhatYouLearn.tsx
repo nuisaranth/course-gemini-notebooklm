@@ -32,9 +32,9 @@ const items = [
     accent: "bg-google-blue/10 text-google-blue",
   },
   {
-    icon: Video,
-    title: "[Bonus] สื่อสารทรงพลังด้วย Google Vids",
-    desc: "เปลี่ยนข้อมูลในเอกสารและสไลด์ธรรมดา ให้กลายเป็นวิดีโอพรีเซนต์เทชันระดับโปรด้วย Generative AI โดยไม่ต้องตัดต่อเป็น",
+    icon: Workflow,
+    title: "AI Strategy Workflow",
+    desc: "เทคนิคการใช้ Gemini ร่วมกับ NotebookLM เพื่อเปลี่ยนข้อมูล Research มหาศาล ให้กลายเป็นแผนกลยุทธ์และ Action Plan ที่ใช้งานได้จริง",
     accent: "bg-google-red/10 text-google-red",
   },
 ];
