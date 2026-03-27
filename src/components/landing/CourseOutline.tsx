@@ -3,12 +3,12 @@ import { Coffee } from "lucide-react";
 const timeline = [
   {
     time: "09:00 - 12:00 น.",
-    title: "เจาะลึก AI, Prompt Engineering & Deep Research",
+    title: "The Business Detective: พลิกโลกการวิจัยธุรกิจด้วย Deep Research",
     bullets: [
-      "Beyond Generic AI: การก้าวข้ามการ Chat สู่การทำ Deep Research เพื่อหา Market Gap",
-      "Precision Retrieval & Detective Prompting: เทคนิคสืบค้นแหล่งข้อมูลปฐมภูมิและสูตรคำสั่งสกัด Insight",
-      "Tactical Decoding: การแกะรอยคู่แข่งแบบ 360 องศา และการวิเคราะห์ Sentiment ลูกค้า",
-      "Fact-Check & Executive Summary: ระบบป้องกัน AI มโน และการสรุปข้อมูลหน้าเดียวเพื่อการตัดสินใจ",
+      "Beyond Chatbots: ก้าวข้ามการ Chat สู่การทำ Deep Research เพื่อหา Market Gap ที่คู่แข่งมองไม่เห็น",
+      "Detective Prompting: สูตรคำสั่งสกัด Insight และเทคนิคสืบค้นแหล่งข้อมูลปฐมภูมิ (Primary Sources) อย่างแม่นยำ",
+      "Tactical Decoding: การแกะรอยคู่แข่งแบบ 360 องศา และการเจาะลึก Customer Sentiment เพื่อหาโอกาสใหม่",
+      "Fact-Check Protocol: ระบบป้องกัน AI มโน (Hallucination) และการสรุปข้อมูลหน้าเดียวเพื่อการตัดสินใจระดับบริหาร",
     ],
     dot: "bg-google-blue",
   },
@@ -21,12 +21,12 @@ const timeline = [
   },
   {
     time: "13:00 - 17:00 น.",
-    title: "เวิร์กชอปภาคปฏิบัติ: NotebookLM & Gemini Gems",
+    title: "The Knowledge Architect: สร้างระบบสมองที่สองและขุนพล AI",
     bullets: [
-      'เวิร์กชอป NotebookLM: สร้าง "สมองที่สอง" ย่อยเอกสารนับร้อยหน้าในพริบตา',
-      "การทำ Audio Overview เปลี่ยนรายงานที่น่าเบื่อให้เป็นเสียงพอดแคสต์",
-      "สร้างและปรับแต่ง Gemini Gems ให้เป็นทีมที่ปรึกษาเสมือนส่วนตัว (Virtual C-Suite)",
-      "เทคนิคการใช้ Gemini ร่วมกับ NotebookLM เพื่อเปลี่ยนข้อมูล Research ให้เป็นแผนกลยุทธ์ที่ใช้งานได้จริง",
+      'Mastering NotebookLM: สร้างสมองที่สองที่แม่นยำ 100% ไร้อาการ "AI มโน" (Zero Hallucination)',
+      "Strategic Audio Overview: เปลี่ยนรายงานมหาศาลเป็น Executive Briefing เพื่อการตัดสินใจ",
+      "Virtual C-Suite (Gems): ติดตั้งขุนพล AI ประจำธุรกิจที่ฝังกลยุทธ์และ Insight เฉพาะของคุณ",
+      "AI Strategy Workflow: สกัดงานวิจัยช่วงเช้าสู่แผนปฏิบัติการ (Action Plan) ที่ใช้งานได้จริง",
     ],
     dot: "bg-google-green",
   },
