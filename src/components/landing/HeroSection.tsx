@@ -32,8 +32,7 @@ const HeroSection = () => {
 
           {/* Sub-headline */}
           <p className="mb-10 max-w-3xl text-sm leading-relaxed text-primary-foreground/80 md:text-xl">
-            เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
-            คอร์สเวิร์กชอป 7 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10 เท่า
+            ในยุคที่ใครก็ใช้ AI ได้... ผู้ที่สกัด <span className="text-google-yellow">ความจริง</span> ได้ลึกกว่า คือผู้ที่จะชนะในสมรภูมิธุรกิจ 2026
           </p>
 
           {/* Event details cards */}
