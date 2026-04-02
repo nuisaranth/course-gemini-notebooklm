@@ -3,7 +3,7 @@ import { ArrowRight, Download, Flame, CalendarDays, Clock, MapPin, Users } from 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
-  { icon: CalendarDays, label: "รุ่น 3", value: "1 เม.ย. 69", color: "text-google-blue" },
+  { icon: CalendarDays, label: "รุ่น 4", value: "6 พ.ค. 69", color: "text-google-blue" },
   { icon: Clock, label: "เวลา", value: "09:00-17:00", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
   { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" }];
@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-1.5 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-xs font-semibold backdrop-blur-sm sm:gap-2 sm:px-5 sm:py-2 sm:text-sm">
             <Flame className="h-4 w-4 text-google-yellow" />
-            เปิดรับสมัครรุ่นที่ 3 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
+            เปิดรับสมัครรุ่นที่ 4 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
           </div>
 
           {/* Headline */}
