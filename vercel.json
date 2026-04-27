@@ -1,11 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/gemini-notebooklm/:path*",
-      "destination": "/index.html"
-    },
-    {
-      "source": "/gemini-notebooklm",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
