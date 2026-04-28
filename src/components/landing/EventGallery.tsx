@@ -9,6 +9,11 @@ import ws2_2 from "@/assets/workshop2-2.webp";
 import ws2_3 from "@/assets/workshop2-3.webp";
 import ws2_4 from "@/assets/workshop2-4.webp";
 
+import ws3_1 from "@/assets/workshop3-1.webp";
+import ws3_2 from "@/assets/workshop3-2.webp";
+import ws3_3 from "@/assets/workshop3-3.webp";
+import ws3_4 from "@/assets/workshop3-4.webp";
+
 const photosBatch1 = [
   { src: ws1_1, alt: "วิทยากรสอน AI Model Landscape" },
   { src: ws1_2, alt: "ผู้เข้าอบรมลงมือปฏิบัติจริง" },
@@ -23,10 +28,20 @@ const photosBatch2 = [
   { src: ws2_4, alt: "ภาพหมู่ผู้เข้าร่วมอบรมรุ่น 2" },
 ];
 
-const EventGallery = () => {
-  const [activeTab, setActiveTab] = useState<"รุ่น 2" | "รุ่น 1">("รุ่น 2");
+const photosBatch3 = [
+  { src: ws3_1, alt: "บรรยากาศการเรียนและสอบถามช่วงเช้า โดย อ.พันธุ์ทิตต์ " },
+  { src: ws3_2, alt: "ผู้เข้าอบรมกำลังฟังการบรรยาย Gemini Deep Research อย่างตั้งใจ" },
+  { src: ws3_3, alt: "บรรยากาศการทำ Workshop NotebookLM ช่วงบ่าย" },
+  { src: ws3_4, alt: "ภาพหมู่ผู้เข้าร่วมอบรมรุ่น 3" },
+];
 
-  const currentPhotos = activeTab === "รุ่น 2" ? photosBatch2 : photosBatch1;
+const EventGallery = () => {
+  const [activeTab, setActiveTab] = useState<"รุ่น 3" | "รุ่น 2" | "รุ่น 1">("รุ่น 3");
+
+  const currentPhotos =
+    activeTab === "รุ่น 3" ? photosBatch3 :
+      activeTab === "รุ่น 2" ? photosBatch2 :
+        photosBatch1;
 
   return (
     <section className="bg-secondary/40 py-16 md:py-24">
@@ -39,24 +54,31 @@ const EventGallery = () => {
         </p>
 
         {/* Tabs */}
-        <div className="mx-auto mb-10 flex max-w-md justify-center gap-4">
+        <div className="mx-auto mb-10 flex max-w-md flex-wrap justify-center gap-2 md:gap-4">
           <button
-            onClick={() => setActiveTab("รุ่น 2")}
-            className={`rounded-full px-6 py-2 text-sm font-semibold transition-all duration-300 md:text-base ${
-              activeTab === "รุ่น 2"
+            onClick={() => setActiveTab("รุ่น 3")}
+            className={`rounded-full px-6 py-2 text-sm font-semibold transition-all duration-300 md:text-base ${activeTab === "รุ่น 3"
                 ? "bg-primary text-white shadow-md"
                 : "border border-border text-muted-foreground hover:border-primary hover:text-primary"
-            }`}
+              }`}
+          >
+            รุ่น 3
+          </button>
+          <button
+            onClick={() => setActiveTab("รุ่น 2")}
+            className={`rounded-full px-6 py-2 text-sm font-semibold transition-all duration-300 md:text-base ${activeTab === "รุ่น 2"
+                ? "bg-primary text-white shadow-md"
+                : "border border-border text-muted-foreground hover:border-primary hover:text-primary"
+              }`}
           >
             รุ่น 2
           </button>
           <button
             onClick={() => setActiveTab("รุ่น 1")}
-            className={`rounded-full px-6 py-2 text-sm font-semibold transition-all duration-300 md:text-base ${
-              activeTab === "รุ่น 1"
+            className={`rounded-full px-6 py-2 text-sm font-semibold transition-all duration-300 md:text-base ${activeTab === "รุ่น 1"
                 ? "bg-primary text-white shadow-md"
                 : "border border-border text-muted-foreground hover:border-primary hover:text-primary"
-            }`}
+              }`}
           >
             รุ่น 1
           </button>

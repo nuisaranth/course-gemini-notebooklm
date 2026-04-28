@@ -3,7 +3,7 @@ import { ArrowRight, Download, Flame, CalendarDays, Clock, MapPin, Users } from 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
-  { icon: CalendarDays, label: "รุ่น 3", value: "1 เม.ย. 69", color: "text-google-blue" },
+  { icon: CalendarDays, label: "รุ่น 4", value: "6 พ.ค. 69", color: "text-google-blue" },
   { icon: Clock, label: "เวลา", value: "09:00-17:00", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
   { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" }];
@@ -20,7 +20,7 @@ const HeroSection = () => {
           {/* Badge */}
           <div className="mb-6 inline-flex items-center gap-1.5 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-xs font-semibold backdrop-blur-sm sm:gap-2 sm:px-5 sm:py-2 sm:text-sm">
             <Flame className="h-4 w-4 text-google-yellow" />
-            เปิดรับสมัครรุ่นที่ 3 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
+            เปิดรับสมัครรุ่นที่ 4 แล้ว! (รับจำกัดเพียง 10 ที่นั่งเท่านั้น)
           </div>
 
           {/* Headline */}
@@ -32,8 +32,7 @@ const HeroSection = () => {
 
           {/* Sub-headline */}
           <p className="mb-10 max-w-3xl text-sm leading-relaxed text-primary-foreground/80 md:text-xl">
-            เปลี่ยนข้อมูลมหาศาลให้เป็นไอเดียและบทสรุปในพริบตา
-            คอร์สเวิร์กชอป 7 ชั่วโมงเต็ม สำหรับผู้เริ่มต้นที่ต้องการเพิ่มความเร็วในการทำงาน 10 เท่า
+            ในยุคที่ใครก็ใช้ AI ได้... ผู้ที่สกัด <span className="text-google-yellow">ความจริง</span> ได้ลึกกว่า คือผู้ที่จะชนะในสมรภูมิธุรกิจ 2026
           </p>
 
           {/* Event details cards */}
