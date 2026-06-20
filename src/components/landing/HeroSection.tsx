@@ -3,7 +3,7 @@ import { ArrowRight, Download, Flame, CalendarDays, Clock, MapPin, Users } from 
 const CTA_LINK = "https://lin.ee/rmHdC8tm";
 
 const details = [
-  { icon: CalendarDays, label: "รุ่น 6", value: "5 ก.ค. 69", color: "text-google-blue" },
+  { icon: CalendarDays, label: "รุ่น 6", value: "11 ก.ค. 69", color: "text-google-blue" },
   { icon: Clock, label: "เวลา", value: "09:00-17:00", color: "text-google-red" },
   { icon: MapPin, label: "สถานที่", value: "Punthai Coffee", color: "text-google-green" },
   { icon: Users, label: "จำนวน", value: "จำกัด 10 ท่าน", color: "text-google-yellow" }];

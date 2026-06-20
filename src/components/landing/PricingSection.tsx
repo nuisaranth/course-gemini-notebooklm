@@ -40,7 +40,7 @@ const PricingSection = () => {
             <div className="space-y-4 mb-8">
               <div className="flex items-center gap-3">
                 <Calendar className="h-5 w-5 text-primary shrink-0" />
-                <span className="text-foreground font-medium">วันที่ 5 กรกฎาคม 2569</span>
+                <span className="text-foreground font-medium">วันที่ 11 กรกฎาคม 2569</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock className="h-5 w-5 text-primary shrink-0" />
